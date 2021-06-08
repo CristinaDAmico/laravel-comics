@@ -1,0 +1,11 @@
+.main-navigation {
+    a {
+        color: $c-grey;
+        &.active {
+            color: $primary-color;
+        }
+    }
+    img {
+        width: 60px;
+    }
+}

@@ -1,0 +1,16 @@
+footer {
+    background-color: $c-grey;
+    nav {
+        justify-content: space-between;
+        .active {
+            color: $primary-color;
+        }
+    }
+    button {
+        color: $text-color;
+        background: transparent;
+        border: 2px solid $primary-color;
+        text-transform: $text-up;
+        padding: 1rem;
+    }
+}
