@@ -54,6 +54,11 @@ a {
   width: 60px;
 }
 
+.comics {
+  padding: 2rem 0;
+  background-color: #1c1c1c;
+}
+
 footer {
   background-color: #303030;
 }
@@ -69,4 +74,19 @@ footer button {
   border: 2px solid #0182f9;
   text-transform: uppercase;
   padding: 1rem;
+}
+
+.cards {
+  flex-wrap: wrap;
+}
+.cards .card {
+  flex-basis: calc(100% / 6);
+  padding: 10px;
+}
+.cards .card img {
+  display: block;
+}
+.cards .card-title {
+  padding: 1rem;
+  font-size: 12px;
 }
